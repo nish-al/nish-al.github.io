@@ -822,6 +822,9 @@ a {
 .banner-content {
   max-width: 650px;
 }
+.banner-content-wide {
+  max-width: 850px;
+}
 .banner-title-mini {
   font-size: 16px;
   display: inline-block;
@@ -848,6 +851,12 @@ a {
   line-height: 24px;
   max-width: 550px;
 }
+.banner-desc-wide {
+  color: #f0eded;
+  font-size: 18px;
+  line-height: 24px;
+  max-width: 850px;
+}
 
 
 .animeslide-slide.swiper-slide-active [data-animate] {
@@ -861,6 +870,9 @@ a {
 	transition-delay: 0.6s;
 }
 .animeslide-slide.swiper-slide-active .banner-desc {
+	transition-delay: 0.9s;
+}
+.animeslide-slide.swiper-slide-active .banner-desc-wide {
 	transition-delay: 0.9s;
 }
 .animeslide-slide.swiper-slide-active .banner-btn {

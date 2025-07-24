@@ -1,3 +1,148 @@
+/* publications in press class */
+.publications-list-inpress {
+  list-style:armenian;
+  padding: 0;
+  margin: 0;
+}
+
+.publications-list-inpress li {
+  margin-bottom: 0.5em;
+  padding-bottom: 0.25em;
+  padding-top: 0.25em;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  background-color: #924844;
+  border-radius: 2px;
+}
+
+
+.publications-list-inpress .pub-title {
+  font-size:120%;
+  text-decoration: none;
+  color: #3d4d60;
+  font-weight: bold;
+  padding-bottom: 0.25em;
+}
+
+.publications-list-inpress .pub-authors {
+  padding-left: 1em;
+  font-size:90%;
+}
+
+.publications-list-inpress .pub-year {
+  padding-left: 0.1em;
+  font-size:70%;
+  color: #e55b5b;
+}
+
+.publications-list-inpress .pub-journal {
+  padding-left: 1em;
+  font-size:90%;
+  color: #93bbaf;
+}
+
+
+
+
+
+/* publications class */
+.publications-list {
+  list-style:armenian;
+  padding: 0;
+  margin: 0;
+}
+
+.publications-list li {
+  margin-bottom: 0.5em;
+  padding-bottom: 0.25em;
+  padding-top: 0.25em;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  /* background-color: #716868; */
+  border-radius: 2px;
+}
+
+
+.publications-list .pub-title {
+  font-size:120%;
+  text-decoration: none;
+  color: #6e8aa9;
+  font-weight: bold;
+  padding-bottom: 0.25em;
+}
+
+.publications-list .pub-authors {
+  padding-left: 1em;
+  font-size:90%;
+}
+
+.publications-list .pub-year {
+  padding-left: 0.1em;
+  font-size:70%;
+  color: #e55b5b;
+}
+
+.publications-list .pub-journal {
+  padding-left: 1em;
+  font-size:90%;
+  color: #93bbaf;
+}
+
+
+
+
+/* publications-talks class */
+.publications-talks {
+  list-style:armenian;
+  padding: 0;
+  margin: 0;
+}
+
+.publications-talks li {
+  margin-bottom: 0.5em;
+  padding-bottom: 0.25em;
+  padding-top: 0.25em;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  /* background-color: #716868; */
+  border-radius: 2px;
+}
+
+
+.publications-talks .pub-title {
+  font-size:120%;
+  text-decoration: none;
+  color: #6e8aa9;
+  font-weight: bold;
+  padding-bottom: 0.25em;
+}
+
+.publications-talks .pub-year {
+  padding-left: 0.1em;
+  font-size:70%;
+  color: #e55b5b;
+}
+
+.publications-talks .pub-location {
+  padding-left: 1em;
+  font-size:90%;
+  color: #93bbaf;
+}
+
+
+
 /* Fonts START */
 @font-face {
   font-family: 'Roboto';

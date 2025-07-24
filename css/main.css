@@ -15,7 +15,7 @@
   border-top: 1px solid #ccc;
   border-left: 1px solid #ccc;
   border-right: 1px solid #ccc;
-  background-color: #924844;
+  background-color: rgba(187, 100, 50, 0.1);;
   border-radius: 2px;
 }
 
@@ -23,7 +23,7 @@
 .publications-list-inpress .pub-title {
   font-size:120%;
   text-decoration: none;
-  color: #3d4d60;
+  color: #6e8aa9;
   font-weight: bold;
   padding-bottom: 0.25em;
 }
@@ -95,6 +95,10 @@
   font-size:90%;
   color: #93bbaf;
 }
+
+
+
+
 
 
 

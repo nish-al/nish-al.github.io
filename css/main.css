@@ -1,4 +1,5 @@
 /* publications in press class */
+/* ------------------------------------------------------------------------ */
 .publications-list-inpress {
   list-style:armenian;
   padding: 0;
@@ -15,10 +16,10 @@
   border-top: 1px solid #ccc;
   border-left: 1px solid #ccc;
   border-right: 1px solid #ccc;
-  background-color: rgba(187, 100, 50, 0.1);;
+  background-color: rgba(187, 100, 50, 0.1);
   border-radius: 2px;
+  line-height: 1.25em
 }
-
 
 .publications-list-inpress .pub-title {
   font-size:120%;
@@ -41,14 +42,13 @@
 
 .publications-list-inpress .pub-journal {
   padding-left: 1em;
-  font-size:90%;
+  font-size:80%;
   color: #93bbaf;
 }
 
 
 
-
-
+/* ------------------------------------------------------------------------ */
 /* publications class */
 .publications-list {
   list-style:armenian;
@@ -68,8 +68,8 @@
   border-right: 1px solid #ccc;
   /* background-color: #716868; */
   border-radius: 2px;
+  line-height: 1.25em
 }
-
 
 .publications-list .pub-title {
   font-size:120%;
@@ -92,17 +92,12 @@
 
 .publications-list .pub-journal {
   padding-left: 1em;
-  font-size:90%;
+  font-size:80%;
   color: #93bbaf;
 }
 
 
-
-
-
-
-
-
+/* ------------------------------------------------------------------------ */
 /* publications-talks class */
 .publications-talks {
   list-style:armenian;
@@ -122,6 +117,7 @@
   border-right: 1px solid #ccc;
   /* background-color: #716868; */
   border-radius: 2px;
+  line-height: 1.25em
 }
 
 
@@ -141,9 +137,55 @@
 
 .publications-talks .pub-location {
   padding-left: 1em;
-  font-size:90%;
+  font-size:80%;
   color: #93bbaf;
 }
+
+
+
+
+
+/* ------------------------------------------------------------------------ */
+/* cvitems class */
+.cvitems {
+  list-style:none;
+  padding: 0;
+  margin: 0;
+}
+
+.cvitems li {
+  margin-bottom: 0.5em;
+  padding-bottom: 0.25em;
+  padding-top: 0.25em;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+  border-top: 0.5px solid #ccc;
+  line-height: 1.25em
+}
+
+
+.cvitems .cv-title {
+  /* font-size:120%; */
+  text-decoration: none;
+  /* color: #6e8aa9; */
+  font-weight: bold;
+  padding-bottom: 0.25em;
+}
+
+.cvitems .cv-year {
+  float: right;
+  font-size:70%;
+  font-style: italic;
+  color: #e55b5b;
+}
+
+.cvitems .cv-location {
+  padding-left: 1em;
+  font-size:80%;
+  color: #93bbaf;
+}
+
+
 
 
 

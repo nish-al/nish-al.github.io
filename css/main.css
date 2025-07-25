@@ -1429,6 +1429,8 @@ a {
   z-index: 0;
   overflow: hidden;
 }
+
+
 .grid-single .grid-item:hover a::before,
 .grid-single .grid-item:hover a::after {
   opacity: 1;
@@ -1439,6 +1441,8 @@ a {
   width: 100%;
   transition: 0.35s ease;
 }
+
+
 
 .gallery-wrap {
   margin-left: 100px;

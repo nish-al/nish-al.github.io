@@ -1424,6 +1424,12 @@ a {
   margin-bottom: 15px;
 }
 
+.grid-single .grid-item-video {
+  width: calc(25% - 15px);
+  margin-bottom: 15px;
+}
+
+
 .grid-single .grid-item {
   float: left;
   z-index: 0;

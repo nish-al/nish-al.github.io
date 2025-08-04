@@ -364,5 +364,15 @@
 <script src="js/blazy.min.js"></script>
 <script src="js/parazoom.min.js"></script>
 <script src="js/script.js"></script>
+
+<script>
+const sinhalaAlphabet = ["ක", "ඛ", "ග", "ඝ", "ඞ"];
+document.querySelectorAll('.publications-list-inpress li').forEach((li, idx) => {
+  if(sinhalaAlphabet[idx]) {
+    li.insertAdjacentHTML('afterbegin', sinhalaAlphabet[idx] + '. ');
+  }
+});
+</script>
+
 </body>
 </html>

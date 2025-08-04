@@ -1,7 +1,7 @@
 /* publications in press class */
 /* ------------------------------------------------------------------------ */
 .publications-list-inpress {
-  list-style:armenian;
+  list-style:none;
   padding: 0;
   margin: 0;
 }
@@ -10,7 +10,7 @@
   margin-bottom: 0.5em;
   padding-bottom: 0.25em;
   padding-top: 0.25em;
-  padding-left: 0.25em;
+  padding-left: 2.5em;
   padding-right: 0.25em;
   border-bottom: 1px solid #ccc;
   border-top: 1px solid #ccc;

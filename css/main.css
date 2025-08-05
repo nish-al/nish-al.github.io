@@ -1,7 +1,15 @@
-/* publications in press class */
+@counter-style sinhalese-decimal {
+  system: numeric;
+  symbols: '' 'අ' 'ආ' 'ඇ' 'ඈ' 'ඉ' 'ඊ' 'උ' 'ඌ' 'එ' 'ඒ' 'ඔ' 'ඕ' 'ක' 'ඛ' 'ග' 'ඝ' 'ච' 'ඡ' 'ජ' 'ඣ' 'ට' 'ඨ' 'ඩ' 'ඪ' 'ණ' 'ත' 'ථ' 'ද' 'ධ' 'න' 'ඳ' 'ප' 'ෆ' 'බ' 'භ' 'ම';
+  suffix: '. ';
+}
+
+
+/* publications in press class
 /* ------------------------------------------------------------------------ */
 .publications-list-inpress {
-  list-style:armenian;
+  /* list-style:armenian; */
+  list-style-type: sinhalese-decimal;
   padding: 0;
   margin: 0;
 }
@@ -44,14 +52,14 @@
   padding-left: 1em;
   font-size:80%;
   color: #93bbaf;
-}
-
+} 
 
 
 /* ------------------------------------------------------------------------ */
 /* publications class */
 .publications-list {
-  list-style:armenian;
+  /* list-style:armenian; */
+  list-style-type: sinhalese-decimal;
   padding: 0;
   margin: 0;
 }
@@ -100,7 +108,8 @@
 /* ------------------------------------------------------------------------ */
 /* publications-talks class */
 .publications-talks {
-  list-style:armenian;
+  /* list-style:armenian; */
+  list-style-type: sinhalese-decimal;
   padding: 0;
   margin: 0;
 }
@@ -149,6 +158,7 @@
 /* cvitems class */
 .cvitems {
   list-style:none;
+  /* list-style-type: sinhalese-decimal; */
   padding: 0;
   margin: 0;
 }
